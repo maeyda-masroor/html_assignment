@@ -54,51 +54,46 @@
     padding: 15px;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  main{
+}
+main{
     width: 90%;
-    height: 350px;
     margin: 0 auto;
     padding-top: 20px;
 
   }
+
+.container {
+    display: flex;
+  }
   
+  .box-3-4 {
+    flex: 3; /* 3 parts of the total 4 */
+     /* Optional: Just for visualization */
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+  
+  .box-1-4 {
+    flex: 1; /* 1 part of the total 4 */
+     /* Optional: Just for visualization */
+    padding: 0px;
+     /* Optional: Just for spacing */
+  }
   article{
-    width:90%;
-    height: 500px;
-    font-size: 50px;
+    font-size: 20px;
+    width: 90%;
     padding-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   footer{
     width: 90%;
     height: 50px;
+    padding-top: 20px;
     background-color: #5a99d2;
     color: white;
     text-align: center;
     padding: 10px;
   }
-  .heading {
-  
-    color: white;
-  
-    text-transform: uppercase;
-  
-    letter-spacing: 5px;
-  
-    font-size: 20px;
-  
-  }
-  
-
-  
-  ul li {
-  
-    list-style: none;
-    display: inline;
-    
-  }
-  
-  
   
